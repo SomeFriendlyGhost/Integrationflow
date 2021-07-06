@@ -16,13 +16,13 @@ Overvejelser i forhold til XYZ's behov
 
 
 beslutninger og ovejevejlser
-   - Consol app kræver mindre end en standard web app opsætning
+   - Consol app kræver mindre end en standard web app opsætning og kan lukkes med det samme den er færdig
    - For at opdatere hver 30 min, giver det mere mening at registrere det til windows task scheduler, 
      eftersom det er hurtigere og kræver mindre vedligholdelse end at håndtere det i koden.
    - benytter en ORM til at udføre mere effektive forespørgsler og sikrer parameterisering.
-   - 
     
 Forbedringer
    - Connection stringen burde ikke være hardcoded men lagt ud i en config fil, således kunne der også bygges dependency injection
-   - Context åbnes og lukkes mange gange med et foreach loop hvilket giver en dårligere performance, det kunne være relevandt at gemme jsonfilen på serveren for at lave fil sammenligning, 
-   og dermed undgå hele tiden at åbne og lukke forbindelser til databasen.
+   - Context åbnes og lukkes mange gange med et foreach loop hvilket giver en dårligere performance, 
+     det kunne være relevandt at gemme jsonfilen på serveren for at lave fil sammenligning, 
+     og dermed undgå hele tiden at åbne og lukke forbindelser til databasen.
