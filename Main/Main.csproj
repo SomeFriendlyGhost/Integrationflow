@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Integrationflow_BL\Integrationflow_BL.csproj" />
+    <ProjectReference Include="..\Integrationflow_Model\Integrationflow_Model.csproj" />
+  </ItemGroup>
+
+</Project>

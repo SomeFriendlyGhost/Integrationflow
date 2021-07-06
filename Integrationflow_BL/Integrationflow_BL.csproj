@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Integrationflow_DAL\Integrationflow_DAL.csproj" />
+    <ProjectReference Include="..\Integrationflow_Model\Integrationflow_Model.csproj" />
+  </ItemGroup>
+
+</Project>
