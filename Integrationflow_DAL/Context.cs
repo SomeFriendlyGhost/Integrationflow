@@ -13,7 +13,7 @@ namespace Integrationflow_DAL
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=51.138.35.230;Database=testuser4;User Id=test4;Password=casper;");
+            optionsBuilder.UseSqlServer(@"Insert ConnectionString Here");
         }
     }
 }
