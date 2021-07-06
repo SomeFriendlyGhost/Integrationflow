@@ -18,6 +18,10 @@ namespace Integrationflow_DAL
         {
             Context.Add(conversionrate);
         }
+        public void UpdateData(ConversionRate conversionrate)
+        {
+            Context.Update(conversionrate);
+        }
         public void CheckIfExists(ConvesionCollection collection)
         {
             foreach (ConversionRate conversionrate in collection.valutaKurser)
@@ -37,7 +41,7 @@ namespace Integrationflow_DAL
                     if (oldConversion.Rate != conversionrate.Rate)
                     {
                         oldConversion.Rate = conversionrate.Rate;
-                        SaveData(oldConversion);
+                        UpdateData(oldConversion);
                     }
 
                 }
