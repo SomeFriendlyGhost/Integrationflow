@@ -11,7 +11,7 @@ namespace Integrationflow_BL
     {
         public ConvesionCollection GetData()
         {
-            string url = "http://valutakurstest.azurewebsites.net/ValutaKurs";
+            string url = "Insert entrypoint here";
             HttpClient client = new HttpClient();
 
             Read read = new Read(client, url);
